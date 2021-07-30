@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Midtrans005-Positive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb6cc2fd-85c7-4c54-b1f7-0d874bdecb43</testCaseGuid>
+   <variable>
+      <defaultValue>'budi@utomo.com\n'</defaultValue>
+      <description></description>
+      <id>e6202e0d-2b28-4460-b7cc-59aa615898e9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'MidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11'</defaultValue>
+      <description></description>
+      <id>be19e0ae-bc0e-4079-9288-dff94c8a8e05</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jakarta'</defaultValue>
+      <description></description>
+      <id>75ca92a8-767c-4f6f-8b8a-e002ae701184</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'081808466410'</defaultValue>
+      <description></description>
+      <id>1422441c-0b25-4db8-b457-a1b5a9a51057</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'Budi'</defaultValue>
+      <description></description>
+      <id>47c41ecf-b499-4f5b-ad93-e96745a6cdc4</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>'10220'</defaultValue>
+      <description></description>
+      <id>1a860d0f-475e-4f73-987d-b872dbf7aaa1</id>
+      <masked>false</masked>
+      <name>postalcode</name>
+   </variable>
+</TestCaseEntity>

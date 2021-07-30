@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>chx-pot-10-persen</name>
+   <tag></tag>
+   <elementGuidId>5c10d827-c709-4ba5-b0c0-1ac8fbceef76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='input-row']/div[2]//input[@name='promo']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='input-row']/div[2]//input[@name='promo']</value>
+   </webElementProperties>
+</WebElementEntity>
