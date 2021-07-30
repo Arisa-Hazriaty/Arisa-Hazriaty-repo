@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Midtrans-Sofie,,,,2021-07-26 18:50:00,2021-07-26 18:50:01,1.415s,ERROR
+,,,,,,,
+Test Cases/Sofie-Case-Positive,,,,2021-07-26 18:50:01,2021-07-26 18:50:01,0.783s,ERROR
+"data = findTestData(""Small_Project_1/CC_Positive_Shopping_Cart"")",,,,2021-07-26 18:50:01,2021-07-26 18:50:01,0.018s,PASSED

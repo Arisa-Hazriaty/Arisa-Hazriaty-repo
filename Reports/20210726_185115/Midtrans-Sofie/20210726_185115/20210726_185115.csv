@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Midtrans-Sofie,,,,2021-07-26 18:51:34,2021-07-26 18:51:37,3.161s,FAILED
+,,,,,,,
+Test Cases/Sofie-Case-Positive,,,,2021-07-26 18:51:34,2021-07-26 18:51:37,2.547s,FAILED
+"data = findTestData(""midtrans-sofie/TestData-Sofie"")",,,,2021-07-26 18:51:35,2021-07-26 18:51:36,1.173s,PASSED
+"for ([rowlogin = 1, rowlogin <= data.getRowNumbers(), (rowlogin++)])",,,,2021-07-26 18:51:36,2021-07-26 18:51:37,0.725s,FAILED

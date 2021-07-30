@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Midtrans-Sofie" time="1.695" tests="1" failures="0" errors="1">
+   <testsuite name="Midtrans-Sofie" tests="1" failures="0" errors="1" time="1.695" skipped="0" timestamp="2021-07-26 18:50:00" hostname="arisahazriaty - 192.168.1.2" id="Test Suites/Midtrans-Sofie">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210726_184942/Midtrans-Sofie/20210726_184942"/>
+         <property name="logFiles" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210726_184942/Midtrans-Sofie/20210726_184942/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arisahazriaty - 192.168.1.2"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Sofie-Case-Positive" time="0.783" classname="Test Cases/Sofie-Case-Positive" status="ERROR">
+         <error type="ERROR" message="Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627300182763.run(TempTestSuite1627300182763.groovy:39)
+"/>
+         <system-out><![CDATA[2021-07-26 18:50:01 - [TEST_CASE][ERROR] - Test Cases/Sofie-Case-Positive: Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627300182763.run(TempTestSuite1627300182763.groovy:39)
+
+
+2021-07-26 18:50:01 - [TEST_STEP][PASSED] - data = findTestData("Small_Project_1/CC_Positive_Shopping_Cart"): null]]></system-out>
+         <system-err><![CDATA[2021-07-26 18:50:01 - [TEST_CASE][ERROR] - Test Cases/Sofie-Case-Positive: Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627300182763.run(TempTestSuite1627300182763.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-26 18:50:00 - [TEST_SUITE][ERROR] - Midtrans-Sofie: Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627300182763.run(TempTestSuite1627300182763.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-07-26 18:50:00 - [TEST_SUITE][ERROR] - Midtrans-Sofie: Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/Small_Project_1/CC_Positive_Shopping_Cart' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627300182763.run(TempTestSuite1627300182763.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

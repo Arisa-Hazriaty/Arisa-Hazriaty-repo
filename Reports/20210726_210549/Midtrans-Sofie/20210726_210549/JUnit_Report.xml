@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Midtrans-Sofie" time="48.192" tests="2" failures="0" errors="1">
+   <testsuite name="Midtrans-Sofie" tests="2" failures="0" errors="1" time="48.192" skipped="0" timestamp="2021-07-26 21:06:10" hostname="arisahazriaty - 192.168.1.2" id="Test Suites/Midtrans-Sofie">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210726_210549/Midtrans-Sofie/20210726_210549"/>
+         <property name="logFiles" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210726_210549/Midtrans-Sofie/20210726_210549/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arisahazriaty - 192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.164"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="8e9fb08e9bd9b40ba2d391217e60b60c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Midtrans001-Positive" time="9.571" classname="Test Cases/Midtrans001-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-26 21:06:11 - [TEST_CASE][PASSED] - Test Cases/Midtrans001-Positive: Test Cases/Midtrans001-Positive
+
+2021-07-26 21:06:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-26 21:06:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-26 21:06:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-26 21:06:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-26 21:06:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-26 21:06:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-26 21:06:17 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-26 21:06:20 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sofie-Case-Positive" time="37.192" classname="Test Cases/Sofie-Case-Positive" status="ERROR">
+         <error type="ERROR" message="Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: popup for class: Script1627296086859
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627308349705.run(TempTestSuite1627308349705.groovy:39)
+"/>
+         <system-out><![CDATA[2021-07-26 21:06:20 - [TEST_CASE][ERROR] - Test Cases/Sofie-Case-Positive: Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: popup for class: Script1627296086859
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627308349705.run(TempTestSuite1627308349705.groovy:39)
+
+
+2021-07-26 21:06:21 - [TEST_STEP][PASSED] - data = findTestData("midtrans-sofie/midtrans-Sofie"): null
+
+2021-07-26 21:06:22 - [TEST_STEP][PASSED] - for ([rowlogin = 1, rowlogin <= data.getRowNumbers(), (rowlogin++)]): null
+
+2021-07-26 21:06:22 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-26 21:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-26 21:06:23 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-amount")): Text of object 'Object Repository/txt-amount' is cleared
+
+2021-07-26 21:06:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-amount' is cleared
+
+2021-07-26 21:06:23 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-name")): Text of object 'Object Repository/txt-name' is cleared
+
+2021-07-26 21:06:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-name' is cleared
+
+2021-07-26 21:06:24 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-email")): Text of object 'Object Repository/txt-email' is cleared
+
+2021-07-26 21:06:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-email' is cleared
+
+2021-07-26 21:06:24 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-phone")): Text of object 'Object Repository/txt-phone' is cleared
+
+2021-07-26 21:06:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-phone' is cleared
+
+2021-07-26 21:06:25 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-city")): Text of object 'Object Repository/txt-city' is cleared
+
+2021-07-26 21:06:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-city' is cleared
+
+2021-07-26 21:06:25 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-address")): Text of object 'Object Repository/txt-address' is cleared
+
+2021-07-26 21:06:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-address' is cleared
+
+2021-07-26 21:06:25 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-postal-code")): Text of object 'Object Repository/txt-postal-code' is cleared
+
+2021-07-26 21:06:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-postal-code' is cleared
+
+2021-07-26 21:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), data.getValue("amount", rowlogin)): Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 21:06:26 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 21:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), data.getValue("amount", rowlogin)): Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 21:06:27 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 21:06:27 - [TEST_STEP][PASSED] - setText(findTestObject("txt-name"), data.getValue("name", rowlogin)): Text 'Arisa Hazriaty' is set on object 'Object Repository/txt-name'
+
+2021-07-26 21:06:28 - [MESSAGE][PASSED] - Text 'Arisa Hazriaty' is set on object 'Object Repository/txt-name'
+
+2021-07-26 21:06:28 - [TEST_STEP][PASSED] - setText(findTestObject("txt-email"), data.getValue("email", rowlogin)): Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-26 21:06:29 - [MESSAGE][PASSED] - Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-26 21:06:29 - [TEST_STEP][PASSED] - setText(findTestObject("txt-phone"), data.getValue("phone", rowlogin)): Text '81286858991' is set on object 'Object Repository/txt-phone'
+
+2021-07-26 21:06:30 - [MESSAGE][PASSED] - Text '81286858991' is set on object 'Object Repository/txt-phone'
+
+2021-07-26 21:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("txt-city"), data.getValue("city", rowlogin)): Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-26 21:06:31 - [MESSAGE][PASSED] - Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-26 21:06:31 - [TEST_STEP][PASSED] - setText(findTestObject("txt-address"), data.getValue("address", rowlogin)): Text 'Karawaci' is set on object 'Object Repository/txt-address'
+
+2021-07-26 21:06:31 - [MESSAGE][PASSED] - Text 'Karawaci' is set on object 'Object Repository/txt-address'
+
+2021-07-26 21:06:31 - [TEST_STEP][PASSED] - setText(findTestObject("txt-postal-code"), data.getValue("postal", rowlogin)): Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-26 21:06:32 - [MESSAGE][PASSED] - Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-26 21:06:32 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-26 21:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-26 21:06:32 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe"), 15): [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-26 21:06:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626846935623']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-26 21:06:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe'. Try using Self-healing.
+
+2021-07-26 21:06:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-26 21:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Tab-ShippingDetails")): Object: 'Object Repository/Tab-ShippingDetails' is clicked on
+
+2021-07-26 21:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Tab-ShippingDetails' is clicked on
+
+2021-07-26 21:06:49 - [TEST_STEP][PASSED] - click(findTestObject("lbl-order-details")): Object: 'Object Repository/lbl-order-details' is clicked on
+
+2021-07-26 21:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl-order-details' is clicked on
+
+2021-07-26 21:06:49 - [TEST_STEP][PASSED] - click(findTestObject("btn-continue")): Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-26 21:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-26 21:06:50 - [TEST_STEP][PASSED] - click(findTestObject("btn-creditcard")): Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-26 21:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-26 21:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cardnumber"), data.getValue("card_number", rowlogin)): Text ''4811111111111114’' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-26 21:06:50 - [MESSAGE][PASSED] - Text ''4811111111111114’' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-26 21:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("txt-expiry-date"), data.getValue("expiry_date", rowlogin)): Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-26 21:06:51 - [MESSAGE][PASSED] - Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-26 21:06:51 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cvv"), data.getValue("cvv", rowlogin)): Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-26 21:06:51 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-26 21:06:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("chx-pot-10-persen")): Object 'Object Repository/chx-pot-10-persen' is clickable
+
+2021-07-26 21:06:51 - [MESSAGE][PASSED] - Object 'Object Repository/chx-pot-10-persen' is clickable
+
+2021-07-26 21:06:51 - [TEST_STEP][PASSED] - if (data.getValue("promo", rowlogin) == "A"): Object 'Object Repository/chx-pot-10-rupiah' is checked
+
+2021-07-26 21:06:51 - [TEST_STEP][PASSED] - check(findTestObject("chx-pot-10-rupiah")): Object 'Object Repository/chx-pot-10-rupiah' is checked
+
+2021-07-26 21:06:52 - [MESSAGE][PASSED] - Object 'Object Repository/chx-pot-10-rupiah' is checked
+
+2021-07-26 21:06:52 - [TEST_STEP][PASSED] - click(findTestObject("btn-pay-now")): Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-26 21:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-26 21:06:52 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe - IssuingBank"), 3): [SELF-HEALING] The current locator of test object 'Object Repository/iframe - IssuingBank' was broken. Propose an alternative one: 'iframe'.
+
+2021-07-26 21:06:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626922698409']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-26 21:06:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe - IssuingBank'. Try using Self-healing.
+
+2021-07-26 21:06:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe - IssuingBank' was broken. Propose an alternative one: 'iframe'.
+
+2021-07-26 21:06:56 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2021-07-26 21:06:56 - [TEST_STEP][PASSED] - setText(findTestObject("txt-password-issuingBank"), data.getValue("password", rowlogin)): Text '112233' is set on object 'Object Repository/txt-password-issuingBank'
+
+2021-07-26 21:06:56 - [MESSAGE][PASSED] - Text '112233' is set on object 'Object Repository/txt-password-issuingBank'
+
+2021-07-26 21:06:56 - [TEST_STEP][PASSED] - click(findTestObject("btn-ok-issuingBank")): Object: 'Object Repository/btn-ok-issuingBank' is clicked on
+
+2021-07-26 21:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-ok-issuingBank' is clicked on
+
+2021-07-26 21:06:57 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2021-07-26 21:06:57 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-07-26 21:06:58 - [TEST_STEP][PASSED] - verifyMatch(popup - transaction - successfull, data.getValue("expected_result", rowlogin), false): null]]></system-out>
+         <system-err><![CDATA[2021-07-26 21:06:20 - [TEST_CASE][ERROR] - Test Cases/Sofie-Case-Positive: Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: popup for class: Script1627296086859
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627308349705.run(TempTestSuite1627308349705.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-26 21:06:10 - [TEST_SUITE][ERROR] - Midtrans-Sofie: Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: popup for class: Script1627296086859
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627308349705.run(TempTestSuite1627308349705.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-07-26 21:06:10 - [TEST_SUITE][ERROR] - Midtrans-Sofie: Test Cases/Sofie-Case-Positive FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: popup for class: Script1627296086859
+	at Sofie-Case-Positive.run(Sofie-Case-Positive:98)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627308349705.run(TempTestSuite1627308349705.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

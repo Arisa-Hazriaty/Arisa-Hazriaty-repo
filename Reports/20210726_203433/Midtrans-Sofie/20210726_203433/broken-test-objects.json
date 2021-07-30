@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/iframe",
+      "brokenLocator": "//*[@src \u003d \u0027https://app.sandbox.midtrans.com/snap/v1/pay?origin_host\u003dhttps://demo.midtrans.com\u0026amp;digest\u003d40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead\u0026amp;client_key\u003dVT-client-yrHf-c8Sxr-ck8tx#/\u0027 and @id \u003d \u0027snap-midtrans\u0027 and @name \u003d \u0027popup_1626846935623\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//iframe[@id\u003d\u0027snap-midtrans\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210726_203433/Midtrans-Sofie/20210726_203433/Object Repository/iframe_XPATH.png"
+    }
+  ]
+}

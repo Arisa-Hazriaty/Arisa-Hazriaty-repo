@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Midtrans-Sofie,Chrome 91.0.4472.164,,,2021-07-26 21:06:10,2021-07-26 21:06:58,47.519s,ERROR
+,,,,,,,
+Test Cases/Midtrans001-Positive,Chrome 91.0.4472.164,,,2021-07-26 21:06:11,2021-07-26 21:06:20,9.571s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.164,,,2021-07-26 21:06:11,2021-07-26 21:06:17,5.435s,PASSED
+maximizeWindow(),Chrome 91.0.4472.164,,,2021-07-26 21:06:17,2021-07-26 21:06:17,0.406s,PASSED
+navigateToUrl(baseURL),Chrome 91.0.4472.164,,,2021-07-26 21:06:17,2021-07-26 21:06:20,2.963s,PASSED
+,,,,,,,
+Test Cases/Sofie-Case-Positive,Chrome 91.0.4472.164,,,2021-07-26 21:06:20,2021-07-26 21:06:58,37.192s,ERROR
+"data = findTestData(""midtrans-sofie/midtrans-Sofie"")",Chrome 91.0.4472.164,,,2021-07-26 21:06:21,2021-07-26 21:06:22,0.851s,PASSED
+"for ([rowlogin = 1, rowlogin <= data.getRowNumbers(), (rowlogin++)])",Chrome 91.0.4472.164,,,2021-07-26 21:06:22,2021-07-26 21:06:58,35.210s,PASSED

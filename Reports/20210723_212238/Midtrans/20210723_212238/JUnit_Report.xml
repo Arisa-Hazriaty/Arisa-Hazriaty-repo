@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Midtrans" time="114.358" tests="11" failures="1" errors="0">
+   <testsuite name="Midtrans" tests="11" failures="1" errors="0" time="114.358" skipped="0" timestamp="2021-07-23 21:23:03" hostname="arisahazriaty - localhost" id="Test Suites/Midtrans">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210723_212238/Midtrans/20210723_212238"/>
+         <property name="logFiles" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210723_212238/Midtrans/20210723_212238/execution0.log"/>
+         <property name="attachments" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210723_212238/Midtrans/20210723_212238/1627050297026.png, /Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210723_212238/Midtrans/20210723_212238/1627050297340.png"/>
+         <property name="hostName" value="arisahazriaty - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.164"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="0d0e0790bfe35469a40ae53c534e4b82"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Midtrans001-Positive" time="6.888" classname="Test Cases/Midtrans001-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:23:04 - [TEST_CASE][PASSED] - Test Cases/Midtrans001-Positive: Test Cases/Midtrans001-Positive
+
+2021-07-23 21:23:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-23 21:23:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-23 21:23:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-23 21:23:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-23 21:23:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-23 21:23:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-23 21:23:09 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:23:11 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans002-Positive" time="3.601" classname="Test Cases/Midtrans002-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:23:11 - [TEST_CASE][PASSED] - Test Cases/Midtrans002-Positive: Test Cases/Midtrans002-Positive
+
+2021-07-23 21:23:11 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:23:12 - [TEST_STEP][PASSED] - verifyMatch(actual, expected, false): Actual text '.price' and expected text '.price' are matched 
+
+2021-07-23 21:23:12 - [MESSAGE][PASSED] - Actual text '.price' and expected text '.price' are matched 
+
+2021-07-23 21:23:12 - [TEST_STEP][PASSED] - nama = verifyElementText(findTestObject("txt-name"), ""): Actual text and expected text of test object 'Object Repository/txt-name' are matched.
+
+2021-07-23 21:23:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt-name' are matched.
+
+2021-07-23 21:23:13 - [TEST_STEP][PASSED] - email = verifyElementText(findTestObject("txt-email"), ""): Actual text and expected text of test object 'Object Repository/txt-email' are matched.
+
+2021-07-23 21:23:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt-email' are matched.
+
+2021-07-23 21:23:13 - [TEST_STEP][PASSED] - phone = verifyElementText(findTestObject("txt-phone"), ""): Actual text and expected text of test object 'Object Repository/txt-phone' are matched.
+
+2021-07-23 21:23:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt-phone' are matched.
+
+2021-07-23 21:23:13 - [TEST_STEP][PASSED] - city = verifyElementText(findTestObject("txt-city"), ""): Actual text and expected text of test object 'Object Repository/txt-city' are matched.
+
+2021-07-23 21:23:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt-city' are matched.
+
+2021-07-23 21:23:13 - [TEST_STEP][PASSED] - alamat = getText(findTestObject("txt-Address")): Text of object 'Object Repository/txt-Address' is: 'MidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11'
+
+2021-07-23 21:23:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-Address' is: 'MidPlaza 2, 4th Floor Jl.Jend.Sudirman Kav.10-11'
+
+2021-07-23 21:23:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("txt-postal-code"), ""): Actual text and expected text of test object 'Object Repository/txt-postal-code' are matched.
+
+2021-07-23 21:23:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt-postal-code' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans003-Positive" time="9.282" classname="Test Cases/Midtrans003-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:23:14 - [TEST_CASE][PASSED] - Test Cases/Midtrans003-Positive: Test Cases/Midtrans003-Positive
+
+2021-07-23 21:23:15 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:23:15 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe"), 5): [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-23 21:23:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626846935623']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 21:23:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe'. Try using Self-healing.
+
+2021-07-23 21:23:23 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/Self-healing/Object Repository/iframe_XPATH.png
+
+2021-07-23 21:23:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-23 21:23:23 - [TEST_STEP][PASSED] - verifyMatch(actual, expected, false): Actual text '.price' and expected text '.price' are matched 
+
+2021-07-23 21:23:23 - [MESSAGE][PASSED] - Actual text '.price' and expected text '.price' are matched 
+
+2021-07-23 21:23:23 - [TEST_STEP][PASSED] - verifyMatch(actual, expected, false): Actual text '.price' and expected text '.price' are matched 
+
+2021-07-23 21:23:23 - [MESSAGE][PASSED] - Actual text '.price' and expected text '.price' are matched 
+
+2021-07-23 21:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Tab-ShippingDetails")): Object: 'Object Repository/Tab-ShippingDetails' is clicked on
+
+2021-07-23 21:23:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Tab-ShippingDetails' is clicked on
+
+2021-07-23 21:23:24 - [TEST_STEP][PASSED] - verifyMatch("nama", "nama", false): Actual text 'nama' and expected text 'nama' are matched 
+
+2021-07-23 21:23:24 - [MESSAGE][PASSED] - Actual text 'nama' and expected text 'nama' are matched 
+
+2021-07-23 21:23:24 - [TEST_STEP][PASSED] - verifyMatch("phone", "phone", false): Actual text 'phone' and expected text 'phone' are matched 
+
+2021-07-23 21:23:24 - [MESSAGE][PASSED] - Actual text 'phone' and expected text 'phone' are matched 
+
+2021-07-23 21:23:24 - [TEST_STEP][PASSED] - verifyMatch("alamat", "alamat", false): Actual text 'alamat' and expected text 'alamat' are matched 
+
+2021-07-23 21:23:24 - [MESSAGE][PASSED] - Actual text 'alamat' and expected text 'alamat' are matched 
+
+2021-07-23 21:23:24 - [TEST_STEP][PASSED] - verifyMatch("email", "email", false): Actual text 'email' and expected text 'email' are matched 
+
+2021-07-23 21:23:24 - [MESSAGE][PASSED] - Actual text 'email' and expected text 'email' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans004-Positive" time="2.866" classname="Test Cases/Midtrans004-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:23:24 - [TEST_CASE][PASSED] - Test Cases/Midtrans004-Positive: Test Cases/Midtrans004-Positive
+
+2021-07-23 21:23:24 - [TEST_STEP][PASSED] - click(findTestObject("btn-continue")): Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-23 21:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-23 21:23:25 - [TEST_STEP][PASSED] - click(findTestObject("btn-creditcard")): Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-23 21:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-23 21:23:25 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cardnumber"), cardnumber): Text '4811111111111114' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-23 21:23:26 - [MESSAGE][PASSED] - Text '4811111111111114' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-23 21:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("txt-expiry-date"), expiry): Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-23 21:23:26 - [MESSAGE][PASSED] - Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-23 21:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cvv"), cvv): Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-23 21:23:26 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-23 21:23:26 - [TEST_STEP][PASSED] - verifyMatch(email, email, false): Actual text 'budi@utomo.com' and expected text 'budi@utomo.com' are matched 
+
+2021-07-23 21:23:26 - [MESSAGE][PASSED] - Actual text 'budi@utomo.com' and expected text 'budi@utomo.com' are matched 
+
+2021-07-23 21:23:26 - [TEST_STEP][PASSED] - verifyMatch(phoneconvert, phoneconvert, false): Actual text '+6281808466410' and expected text '+6281808466410' are matched 
+
+2021-07-23 21:23:26 - [MESSAGE][PASSED] - Actual text '+6281808466410' and expected text '+6281808466410' are matched 
+
+2021-07-23 21:23:26 - [TEST_STEP][PASSED] - click(findTestObject("btn-pay-now")): Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-23 21:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-pay-now' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans005-Positive" time="41.501" classname="Test Cases/Midtrans005-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:23:27 - [TEST_CASE][PASSED] - Test Cases/Midtrans005-Positive: Test Cases/Midtrans005-Positive
+
+2021-07-23 21:23:27 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe - IssuingBank"), 3): [SELF-HEALING] The current locator of test object 'Object Repository/iframe - IssuingBank' was broken. Propose an alternative one: 'iframe'.
+
+2021-07-23 21:23:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626922698409']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 21:23:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe - IssuingBank'. Try using Self-healing.
+
+2021-07-23 21:23:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 21:23:33 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2021-07-23 21:23:34 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/Self-healing/Object Repository/iframe - IssuingBank_CSS.png
+
+2021-07-23 21:23:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe - IssuingBank' was broken. Propose an alternative one: 'iframe'.
+
+2021-07-23 21:23:34 - [TEST_STEP][PASSED] - setText(findTestObject("txt-password-issuingBank"), PasswordIssuingBank): Text '112233' is set on object 'Object Repository/txt-password-issuingBank'
+
+2021-07-23 21:23:34 - [MESSAGE][PASSED] - Text '112233' is set on object 'Object Repository/txt-password-issuingBank'
+
+2021-07-23 21:23:34 - [TEST_STEP][PASSED] - click(findTestObject("btn-ok-issuingbank")): Object: 'Object Repository/btn-ok-issuingbank' is clicked on
+
+2021-07-23 21:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-ok-issuingbank' is clicked on
+
+2021-07-23 21:23:35 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-07-23 21:23:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-07-23 21:23:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Transaction successful"), 0): Object 'Object Repository/div_Transaction successful' is present
+
+2021-07-23 21:23:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-23 21:23:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-23 21:23:35 - [MESSAGE][PASSED] - Object 'Object Repository/div_Transaction successful' is present
+
+2021-07-23 21:23:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("lbl-status-transaction"), STOP_ON_FAILURE): Object 'Object Repository/lbl-status-transaction' is visible
+
+2021-07-23 21:24:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 21:24:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/lbl-status-transaction'. Try using Self-healing.
+
+2021-07-23 21:24:08 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2021-07-23 21:24:08 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/Self-healing/Object Repository/lbl-status-transaction_BASIC.png
+
+2021-07-23 21:24:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/lbl-status-transaction' was broken. Propose an alternative one: '.trans-status'.
+
+2021-07-23 21:24:08 - [MESSAGE][PASSED] - Object 'Object Repository/lbl-status-transaction' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MidTrans006-Positive" time="2.538" classname="Test Cases/MidTrans006-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:24:08 - [TEST_CASE][PASSED] - Test Cases/MidTrans006-Positive: Test Cases/MidTrans006-Positive
+
+2021-07-23 21:24:08 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:09 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:09 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:10 - [TEST_STEP][PASSED] - click(findTestObject("btn-cancel")): Object: 'Object Repository/btn-cancel' is clicked on
+
+2021-07-23 21:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans009-Negative" time="8.807" classname="Test Cases/Midtrans009-Negative" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:24:11 - [TEST_CASE][PASSED] - Test Cases/Midtrans009-Negative: Test Cases/Midtrans009-Negative
+
+2021-07-23 21:24:12 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:13 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:13 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:13 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), amount): Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-23 21:24:14 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-23 21:24:14 - [TEST_STEP][PASSED] - setText(findTestObject("txt-name"), name): Text 'Arisa hazriaty' is set on object 'Object Repository/txt-name'
+
+2021-07-23 21:24:15 - [MESSAGE][PASSED] - Text 'Arisa hazriaty' is set on object 'Object Repository/txt-name'
+
+2021-07-23 21:24:15 - [TEST_STEP][PASSED] - setText(findTestObject("txt-email"), email): Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-23 21:24:16 - [MESSAGE][PASSED] - Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-23 21:24:16 - [TEST_STEP][PASSED] - setText(findTestObject("txt-phone"), phone): Text '' is set on object 'Object Repository/txt-phone'
+
+2021-07-23 21:24:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/txt-phone'
+
+2021-07-23 21:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("txt-city"), city): Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-23 21:24:17 - [MESSAGE][PASSED] - Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-23 21:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("txt-Address"), address): Text 'Ciledug Tangerang Banten' is set on object 'Object Repository/txt-Address'
+
+2021-07-23 21:24:18 - [MESSAGE][PASSED] - Text 'Ciledug Tangerang Banten' is set on object 'Object Repository/txt-Address'
+
+2021-07-23 21:24:18 - [TEST_STEP][PASSED] - setText(findTestObject("txt-postal-code"), postal): Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-23 21:24:19 - [MESSAGE][PASSED] - Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-23 21:24:19 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:19 - [TEST_STEP][PASSED] - verifyMatch(actual, expected, false): Actual text '.trans-status' and expected text '.trans-status' are matched 
+
+2021-07-23 21:24:19 - [MESSAGE][PASSED] - Actual text '.trans-status' and expected text '.trans-status' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans008-Negative" time="9.538" classname="Test Cases/Midtrans008-Negative" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:24:19 - [TEST_CASE][PASSED] - Test Cases/Midtrans008-Negative: Test Cases/Midtrans008-Negative
+
+2021-07-23 21:24:20 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:21 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:21 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), amount): Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-23 21:24:22 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-23 21:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("txt-name"), name): Text 'Arisa Hazriaty Arisa Hazriaty Arisa HazriatyArisa HazriatyArisa Hazriaty Arisa Hazriaty Arisa HazriatyArisa HazriatyArisa Hazriaty Arisa Hazriaty Arisa HazriatyArisa HazriatyArisa Hazriaty Arisa HazriaArisa Hazriaty Arisa Hazriaty Arisa HazriatyArisa Hazry' is set on object 'Object Repository/txt-name'
+
+2021-07-23 21:24:24 - [MESSAGE][PASSED] - Text 'Arisa Hazriaty Arisa Hazriaty Arisa HazriatyArisa HazriatyArisa Hazriaty Arisa Hazriaty Arisa HazriatyArisa HazriatyArisa Hazriaty Arisa Hazriaty Arisa HazriatyArisa HazriatyArisa Hazriaty Arisa HazriaArisa Hazriaty Arisa Hazriaty Arisa HazriatyArisa Hazry' is set on object 'Object Repository/txt-name'
+
+2021-07-23 21:24:24 - [TEST_STEP][PASSED] - setText(findTestObject("txt-email"), email): Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-23 21:24:25 - [MESSAGE][PASSED] - Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-23 21:24:25 - [TEST_STEP][PASSED] - setText(findTestObject("txt-phone"), phone): Text '081234567890' is set on object 'Object Repository/txt-phone'
+
+2021-07-23 21:24:26 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/txt-phone'
+
+2021-07-23 21:24:26 - [TEST_STEP][PASSED] - setText(findTestObject("txt-city"), city): Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-23 21:24:26 - [MESSAGE][PASSED] - Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-23 21:24:26 - [TEST_STEP][PASSED] - setText(findTestObject("txt-Address"), address): Text 'Ciledug Tangerang Banten' is set on object 'Object Repository/txt-Address'
+
+2021-07-23 21:24:27 - [MESSAGE][PASSED] - Text 'Ciledug Tangerang Banten' is set on object 'Object Repository/txt-Address'
+
+2021-07-23 21:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("txt-postal-code"), postal): Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-23 21:24:28 - [MESSAGE][PASSED] - Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-23 21:24:28 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:28 - [TEST_STEP][PASSED] - getText(findTestObject("txt-errormessage")): Text of object 'Object Repository/txt-errormessage' is: 'Sorry, something went wrong.
+Please retry your purchase.'
+
+2021-07-23 21:24:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-errormessage' is: 'Sorry, something went wrong.
+Please retry your purchase.'
+
+2021-07-23 21:24:29 - [TEST_STEP][PASSED] - verifyMatch(actual, expected, false): Actual text '.trans-status' and expected text '.trans-status' are matched 
+
+2021-07-23 21:24:29 - [MESSAGE][PASSED] - Actual text '.trans-status' and expected text '.trans-status' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans007-Negative" time="7.531" classname="Test Cases/Midtrans007-Negative" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:24:29 - [TEST_CASE][PASSED] - Test Cases/Midtrans007-Negative: Test Cases/Midtrans007-Negative
+
+2021-07-23 21:24:29 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:30 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:30 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:31 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), amount): Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-23 21:24:31 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-23 21:24:31 - [TEST_STEP][PASSED] - setText(findTestObject("txt-name"), name): Text '' is set on object 'Object Repository/txt-name'
+
+2021-07-23 21:24:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/txt-name'
+
+2021-07-23 21:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("txt-email"), email): Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-23 21:24:33 - [MESSAGE][PASSED] - Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-23 21:24:33 - [TEST_STEP][PASSED] - setText(findTestObject("txt-phone"), phone): Text '081234567890' is set on object 'Object Repository/txt-phone'
+
+2021-07-23 21:24:34 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/txt-phone'
+
+2021-07-23 21:24:34 - [TEST_STEP][PASSED] - setText(findTestObject("txt-city"), city): Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-23 21:24:35 - [MESSAGE][PASSED] - Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-23 21:24:35 - [TEST_STEP][PASSED] - setText(findTestObject("txt-Address"), address): Text 'Ciledug Tangerang Banten' is set on object 'Object Repository/txt-Address'
+
+2021-07-23 21:24:35 - [MESSAGE][PASSED] - Text 'Ciledug Tangerang Banten' is set on object 'Object Repository/txt-Address'
+
+2021-07-23 21:24:35 - [TEST_STEP][PASSED] - setText(findTestObject("txt-postal-code"), postal): Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-23 21:24:36 - [MESSAGE][PASSED] - Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-23 21:24:36 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:37 - [TEST_STEP][PASSED] - verifyMatch(actual, expected, false): Actual text '.trans-status' and expected text '.trans-status' are matched 
+
+2021-07-23 21:24:37 - [MESSAGE][PASSED] - Actual text '.trans-status' and expected text '.trans-status' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans010-Negative" time="7.79" classname="Test Cases/Midtrans010-Negative" status="PASSED">
+         <system-out><![CDATA[2021-07-23 21:24:37 - [TEST_CASE][PASSED] - Test Cases/Midtrans010-Negative: Test Cases/Midtrans010-Negative
+
+2021-07-23 21:24:37 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:38 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:38 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:38 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), amount): Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-23 21:24:39 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-23 21:24:39 - [TEST_STEP][PASSED] - setText(findTestObject("txt-name"), name): Text 'Arisa Hazriaty' is set on object 'Object Repository/txt-name'
+
+2021-07-23 21:24:40 - [MESSAGE][PASSED] - Text 'Arisa Hazriaty' is set on object 'Object Repository/txt-name'
+
+2021-07-23 21:24:40 - [TEST_STEP][PASSED] - setText(findTestObject("txt-email"), email): Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-23 21:24:41 - [MESSAGE][PASSED] - Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-23 21:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("txt-phone"), phone): Text 'testingnegative' is set on object 'Object Repository/txt-phone'
+
+2021-07-23 21:24:42 - [MESSAGE][PASSED] - Text 'testingnegative' is set on object 'Object Repository/txt-phone'
+
+2021-07-23 21:24:42 - [TEST_STEP][PASSED] - setText(findTestObject("txt-city"), city): Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-23 21:24:43 - [MESSAGE][PASSED] - Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-23 21:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("txt-Address"), address): Text 'Ciledug Tangerang Banten' is set on object 'Object Repository/txt-Address'
+
+2021-07-23 21:24:43 - [MESSAGE][PASSED] - Text 'Ciledug Tangerang Banten' is set on object 'Object Repository/txt-Address'
+
+2021-07-23 21:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("txt-postal-code"), postal): Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-23 21:24:44 - [MESSAGE][PASSED] - Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-23 21:24:44 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:44 - [TEST_STEP][PASSED] - verifyMatch(actual, expected, false): Actual text '.trans-status' and expected text '.trans-status' are matched 
+
+2021-07-23 21:24:44 - [MESSAGE][PASSED] - Actual text '.trans-status' and expected text '.trans-status' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Midtrans011-Negative" time="12.721" classname="Test Cases/Midtrans011-Negative" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Midtrans011-Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/txt-process-failed' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$10.call(Unknown Source)
+	at Midtrans011-Negative.run(Midtrans011-Negative:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627050158766.run(TempTestSuite1627050158766.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/txt-process-failed' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-07-23 21:24:44 - [TEST_CASE][FAILED] - Test Cases/Midtrans011-Negative: Test Cases/Midtrans011-Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/txt-process-failed' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$10.call(Unknown Source)
+	at Midtrans011-Negative.run(Midtrans011-Negative:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627050158766.run(TempTestSuite1627050158766.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/txt-process-failed' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-07-23 21:24:45 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:46 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-23 21:24:46 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-23 21:24:46 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-23 21:24:47 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe"), 5): [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-23 21:24:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626846935623']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-23 21:24:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe'. Try using Self-healing.
+
+2021-07-23 21:24:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-23 21:24:53 - [TEST_STEP][PASSED] - click(findTestObject("btn-continue")): Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-23 21:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-23 21:24:53 - [TEST_STEP][PASSED] - click(findTestObject("btn-creditcard")): Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-23 21:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-23 21:24:54 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cardnumber"), ccinvalid): Text '3432434134343434' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-23 21:24:54 - [MESSAGE][PASSED] - Text '3432434134343434' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-23 21:24:54 - [TEST_STEP][PASSED] - setText(findTestObject("txt-expiry-date"), expiry): Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-23 21:24:54 - [MESSAGE][PASSED] - Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-23 21:24:54 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cvv"), cvv): Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-23 21:24:55 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-23 21:24:55 - [TEST_STEP][PASSED] - click(findTestObject("btn-pay-now")): Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-23 21:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-23 21:24:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("txt-invalid-card-number"), "Invalid card number"): Actual text and expected text of test object 'Object Repository/txt-invalid-card-number' are matched.
+
+2021-07-23 21:24:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt-invalid-card-number' are matched.
+
+2021-07-23 21:24:55 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cardnumber"), cardnumber): Text '4811111111111114' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-23 21:24:55 - [MESSAGE][PASSED] - Text '4811111111111114' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-23 21:24:55 - [TEST_STEP][PASSED] - setText(findTestObject("txt-expiry-date"), expiryinvalid): Text '01/20' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-23 21:24:56 - [MESSAGE][PASSED] - Text '01/20' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-23 21:24:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("txt-expiry-date-warning"), "Expiry date"): Actual text and expected text of test object 'Object Repository/txt-expiry-date-warning' are matched.
+
+2021-07-23 21:24:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/txt-expiry-date-warning' are matched.
+
+2021-07-23 21:24:56 - [TEST_STEP][PASSED] - setText(findTestObject("txt-expiry-date"), expiry): Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-23 21:24:56 - [MESSAGE][PASSED] - Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-23 21:24:56 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cvv"), ccinvalid): Text '3432434134343434' is set on object 'Object Repository/txt-cvv'
+
+2021-07-23 21:24:56 - [MESSAGE][PASSED] - Text '3432434134343434' is set on object 'Object Repository/txt-cvv'
+
+2021-07-23 21:24:56 - [TEST_STEP][PASSED] - click(findTestObject("btn-pay-now")): Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-23 21:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-23 21:24:56 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("txt-process-failed")): Unable to verify object 'Object Repository/txt-process-failed' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/txt-process-failed' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$10.call(Unknown Source)
+	at Midtrans011-Negative.run(Midtrans011-Negative:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627050158766.run(TempTestSuite1627050158766.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/txt-process-failed' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-07-23 21:24:57 - [MESSAGE][FAILED] - Object 'Object Repository/txt-process-failed' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/txt-process-failed' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$10.call(Unknown Source)
+	at Midtrans011-Negative.run(Midtrans011-Negative:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627050158766.run(TempTestSuite1627050158766.groovy:39)
+)
+[[ATTACHMENT|/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210723_212238/Midtrans/20210723_212238/1627050297026.png]]
+
+2021-07-23 21:24:57 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/txt-process-failed' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/txt-process-failed' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$10.call(Unknown Source)
+	at Midtrans011-Negative.run(Midtrans011-Negative:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627050158766.run(TempTestSuite1627050158766.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/txt-process-failed' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210723_212238/Midtrans/20210723_212238/1627050297340.png]]]]></system-out>
+         <system-err><![CDATA[2021-07-23 21:24:44 - [TEST_CASE][FAILED] - Test Cases/Midtrans011-Negative: Test Cases/Midtrans011-Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/txt-process-failed' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$10.call(Unknown Source)
+	at Midtrans011-Negative.run(Midtrans011-Negative:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627050158766.run(TempTestSuite1627050158766.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/txt-process-failed' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-23 21:23:03 - [TEST_SUITE][FAILED] - Midtrans: Test Cases/Midtrans011-Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/txt-process-failed' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$10.call(Unknown Source)
+	at Midtrans011-Negative.run(Midtrans011-Negative:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627050158766.run(TempTestSuite1627050158766.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/txt-process-failed' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-07-23 21:23:03 - [TEST_SUITE][FAILED] - Midtrans: Test Cases/Midtrans011-Negative FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/txt-process-failed' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$10.call(Unknown Source)
+	at Midtrans011-Negative.run(Midtrans011-Negative:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627050158766.run(TempTestSuite1627050158766.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/txt-process-failed' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

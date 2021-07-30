@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Midtrans-Sofie,,,,2021-07-26 18:46:15,2021-07-26 18:46:20,4.772s,ERROR
+,,,,,,,
+Test Cases/Sofie-Case-Positive,,,,2021-07-26 18:46:17,2021-07-26 18:46:20,2.728s,ERROR
+"verifyElementText(findTestObject(""Small_Project_1/Credit_Debit_Payment/popup_buy_midtrans_pillow""), ""Get cozy with our new pillow!"")",,,,2021-07-26 18:46:19,2021-07-26 18:46:20,0.755s,PASSED

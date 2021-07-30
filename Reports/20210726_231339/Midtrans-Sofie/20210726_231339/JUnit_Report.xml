@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Midtrans-Sofie" time="145.989" tests="2" failures="0" errors="0">
+   <testsuite name="Midtrans-Sofie" tests="2" failures="0" errors="0" time="145.989" skipped="0" timestamp="2021-07-26 23:14:02" hostname="arisahazriaty - 192.168.1.2" id="Test Suites/Midtrans-Sofie">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210726_231339/Midtrans-Sofie/20210726_231339"/>
+         <property name="logFiles" value="/Users/arisahazriaty/Katalon Studio/ProjectMidtrans/Reports/20210726_231339/Midtrans-Sofie/20210726_231339/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="arisahazriaty - 192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.164"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="4afb78822f7e1a0fcf5afb4421530336"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Midtrans001-Positive" time="7.216" classname="Test Cases/Midtrans001-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-26 23:14:03 - [TEST_CASE][PASSED] - Test Cases/Midtrans001-Positive: Test Cases/Midtrans001-Positive
+
+2021-07-26 23:14:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-26 23:14:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-26 23:14:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-26 23:14:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-26 23:14:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-26 23:14:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-26 23:14:08 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://demo.midtrans.com/' successfully
+
+2021-07-26 23:14:10 - [MESSAGE][PASSED] - Navigate to 'https://demo.midtrans.com/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sofie-Case-Positive" time="137.518" classname="Test Cases/Sofie-Case-Positive" status="PASSED">
+         <system-out><![CDATA[2021-07-26 23:14:10 - [TEST_CASE][PASSED] - Test Cases/Sofie-Case-Positive: Test Cases/Sofie-Case-Positive
+
+2021-07-26 23:14:12 - [TEST_STEP][PASSED] - data = findTestData("midtrans-sofie/midtransSofie"): null
+
+2021-07-26 23:14:13 - [TEST_STEP][PASSED] - for ([rowlogin = 1, rowlogin <= data.getRowNumbers(), (rowlogin++)]): Actual text 'Thank you for your purchase' and expected text 'Thank you for your purchase' are matched 
+
+2021-07-26 23:14:13 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-26 23:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-26 23:14:13 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-amount")): Text of object 'Object Repository/txt-amount' is cleared
+
+2021-07-26 23:14:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-amount' is cleared
+
+2021-07-26 23:14:14 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-name")): Text of object 'Object Repository/txt-name' is cleared
+
+2021-07-26 23:14:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-name' is cleared
+
+2021-07-26 23:14:14 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-email")): Text of object 'Object Repository/txt-email' is cleared
+
+2021-07-26 23:14:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-email' is cleared
+
+2021-07-26 23:14:15 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-phone")): Text of object 'Object Repository/txt-phone' is cleared
+
+2021-07-26 23:14:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-phone' is cleared
+
+2021-07-26 23:14:15 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-city")): Text of object 'Object Repository/txt-city' is cleared
+
+2021-07-26 23:14:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-city' is cleared
+
+2021-07-26 23:14:16 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-address")): Text of object 'Object Repository/txt-address' is cleared
+
+2021-07-26 23:14:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-address' is cleared
+
+2021-07-26 23:14:16 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-postal-code")): Text of object 'Object Repository/txt-postal-code' is cleared
+
+2021-07-26 23:14:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-postal-code' is cleared
+
+2021-07-26 23:14:16 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), data.getValue("amount", rowlogin)): Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 23:14:17 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 23:14:17 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), data.getValue("amount", rowlogin)): Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 23:14:18 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 23:14:18 - [TEST_STEP][PASSED] - setText(findTestObject("txt-name"), data.getValue("name", rowlogin)): Text 'Arisa Hazriaty' is set on object 'Object Repository/txt-name'
+
+2021-07-26 23:14:19 - [MESSAGE][PASSED] - Text 'Arisa Hazriaty' is set on object 'Object Repository/txt-name'
+
+2021-07-26 23:14:19 - [TEST_STEP][PASSED] - setText(findTestObject("txt-email"), data.getValue("email", rowlogin)): Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-26 23:14:20 - [MESSAGE][PASSED] - Text 'Arisahazriaty16041993@gmail.com' is set on object 'Object Repository/txt-email'
+
+2021-07-26 23:14:20 - [TEST_STEP][PASSED] - setText(findTestObject("txt-phone"), data.getValue("phone", rowlogin)): Text '81286858991' is set on object 'Object Repository/txt-phone'
+
+2021-07-26 23:14:21 - [MESSAGE][PASSED] - Text '81286858991' is set on object 'Object Repository/txt-phone'
+
+2021-07-26 23:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("txt-city"), data.getValue("city", rowlogin)): Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-26 23:14:21 - [MESSAGE][PASSED] - Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-26 23:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("txt-address"), data.getValue("address", rowlogin)): Text 'Karawaci' is set on object 'Object Repository/txt-address'
+
+2021-07-26 23:14:22 - [MESSAGE][PASSED] - Text 'Karawaci' is set on object 'Object Repository/txt-address'
+
+2021-07-26 23:14:22 - [TEST_STEP][PASSED] - setText(findTestObject("txt-postal-code"), data.getValue("postal", rowlogin)): Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-26 23:14:23 - [MESSAGE][PASSED] - Text '15152' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-26 23:14:23 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-26 23:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-26 23:14:23 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe"), 15): [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-26 23:14:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626846935623']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-26 23:14:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe'. Try using Self-healing.
+
+2021-07-26 23:14:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-26 23:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Tab-ShippingDetails")): Object: 'Object Repository/Tab-ShippingDetails' is clicked on
+
+2021-07-26 23:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Tab-ShippingDetails' is clicked on
+
+2021-07-26 23:14:40 - [TEST_STEP][PASSED] - click(findTestObject("lbl-order-details")): Object: 'Object Repository/lbl-order-details' is clicked on
+
+2021-07-26 23:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl-order-details' is clicked on
+
+2021-07-26 23:14:40 - [TEST_STEP][PASSED] - click(findTestObject("btn-continue")): Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-26 23:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-26 23:14:40 - [TEST_STEP][PASSED] - click(findTestObject("btn-creditcard")): Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-26 23:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-26 23:14:41 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cardnumber"), data.getValue("card_number", rowlogin)): Text ''4811111111111114’' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-26 23:14:41 - [MESSAGE][PASSED] - Text ''4811111111111114’' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-26 23:14:41 - [TEST_STEP][PASSED] - setText(findTestObject("txt-expiry-date"), data.getValue("expiry_date", rowlogin)): Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-26 23:14:42 - [MESSAGE][PASSED] - Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-26 23:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cvv"), data.getValue("cvv", rowlogin)): Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-26 23:14:42 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-26 23:14:42 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("chx-pot-10-persen")): Object 'Object Repository/chx-pot-10-persen' is clickable
+
+2021-07-26 23:14:42 - [MESSAGE][PASSED] - Object 'Object Repository/chx-pot-10-persen' is clickable
+
+2021-07-26 23:14:42 - [TEST_STEP][PASSED] - if (data.getValue("promo", rowlogin) == "A"): Object 'Object Repository/chx-pot-10-rupiah' is checked
+
+2021-07-26 23:14:42 - [TEST_STEP][PASSED] - check(findTestObject("chx-pot-10-rupiah")): Object 'Object Repository/chx-pot-10-rupiah' is checked
+
+2021-07-26 23:14:42 - [MESSAGE][PASSED] - Object 'Object Repository/chx-pot-10-rupiah' is checked
+
+2021-07-26 23:14:42 - [TEST_STEP][PASSED] - click(findTestObject("btn-pay-now")): Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-26 23:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-26 23:14:42 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe - IssuingBank"), 3): [SELF-HEALING] The current locator of test object 'Object Repository/iframe - IssuingBank' was broken. Propose an alternative one: 'iframe'.
+
+2021-07-26 23:14:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626922698409']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-26 23:14:47 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe - IssuingBank'. Try using Self-healing.
+
+2021-07-26 23:14:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe - IssuingBank' was broken. Propose an alternative one: 'iframe'.
+
+2021-07-26 23:14:47 - [TEST_STEP][PASSED] - setText(findTestObject("txt-password-issuingBank"), data.getValue("password", rowlogin)): Text '112233' is set on object 'Object Repository/txt-password-issuingBank'
+
+2021-07-26 23:14:47 - [MESSAGE][PASSED] - Text '112233' is set on object 'Object Repository/txt-password-issuingBank'
+
+2021-07-26 23:14:47 - [TEST_STEP][PASSED] - click(findTestObject("btn-ok-issuingBank")): Object: 'Object Repository/btn-ok-issuingBank' is clicked on
+
+2021-07-26 23:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-ok-issuingBank' is clicked on
+
+2021-07-26 23:14:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Transaction successful"), 0): Object 'Object Repository/div_Transaction successful' is present
+
+2021-07-26 23:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-26 23:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-26 23:14:49 - [MESSAGE][PASSED] - Object 'Object Repository/div_Transaction successful' is present
+
+2021-07-26 23:14:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("lbl-status-transaction"), STOP_ON_FAILURE): Object 'Object Repository/lbl-status-transaction' is visible
+
+2021-07-26 23:15:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-26 23:15:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/lbl-status-transaction'. Try using Self-healing.
+
+2021-07-26 23:15:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/lbl-status-transaction' was broken. Propose an alternative one: '.trans-status'.
+
+2021-07-26 23:15:20 - [MESSAGE][PASSED] - Object 'Object Repository/lbl-status-transaction' is visible
+
+2021-07-26 23:15:20 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2021-07-26 23:15:20 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-07-26 23:15:20 - [TEST_STEP][PASSED] - verifyMatch(popup_success_transaction, data.getValue("expected_result", rowlogin), false): Actual text 'Thank you for your purchase' and expected text 'Thank you for your purchase' are matched 
+
+2021-07-26 23:15:20 - [MESSAGE][PASSED] - Actual text 'Thank you for your purchase' and expected text 'Thank you for your purchase' are matched 
+
+2021-07-26 23:15:20 - [TEST_STEP][PASSED] - click(findTestObject("btn-buy-now")): Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-26 23:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-buy-now' is clicked on
+
+2021-07-26 23:15:21 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-amount")): Text of object 'Object Repository/txt-amount' is cleared
+
+2021-07-26 23:15:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-amount' is cleared
+
+2021-07-26 23:15:21 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-name")): Text of object 'Object Repository/txt-name' is cleared
+
+2021-07-26 23:15:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-name' is cleared
+
+2021-07-26 23:15:22 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-email")): Text of object 'Object Repository/txt-email' is cleared
+
+2021-07-26 23:15:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-email' is cleared
+
+2021-07-26 23:15:22 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-phone")): Text of object 'Object Repository/txt-phone' is cleared
+
+2021-07-26 23:15:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-phone' is cleared
+
+2021-07-26 23:15:22 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-city")): Text of object 'Object Repository/txt-city' is cleared
+
+2021-07-26 23:15:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-city' is cleared
+
+2021-07-26 23:15:23 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-address")): Text of object 'Object Repository/txt-address' is cleared
+
+2021-07-26 23:15:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-address' is cleared
+
+2021-07-26 23:15:23 - [TEST_STEP][PASSED] - clearText(findTestObject("txt-postal-code")): Text of object 'Object Repository/txt-postal-code' is cleared
+
+2021-07-26 23:15:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt-postal-code' is cleared
+
+2021-07-26 23:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), data.getValue("amount", rowlogin)): Text '50000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 23:15:24 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 23:15:24 - [TEST_STEP][PASSED] - setText(findTestObject("txt-amount"), data.getValue("amount", rowlogin)): Text '50000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 23:15:25 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/txt-amount'
+
+2021-07-26 23:15:25 - [TEST_STEP][PASSED] - setText(findTestObject("txt-name"), data.getValue("name", rowlogin)): Text 'Betharia Sonata' is set on object 'Object Repository/txt-name'
+
+2021-07-26 23:15:26 - [MESSAGE][PASSED] - Text 'Betharia Sonata' is set on object 'Object Repository/txt-name'
+
+2021-07-26 23:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("txt-email"), data.getValue("email", rowlogin)): Text 'Document10@getnada.com' is set on object 'Object Repository/txt-email'
+
+2021-07-26 23:15:27 - [MESSAGE][PASSED] - Text 'Document10@getnada.com' is set on object 'Object Repository/txt-email'
+
+2021-07-26 23:15:27 - [TEST_STEP][PASSED] - setText(findTestObject("txt-phone"), data.getValue("phone", rowlogin)): Text '81286858992' is set on object 'Object Repository/txt-phone'
+
+2021-07-26 23:15:28 - [MESSAGE][PASSED] - Text '81286858992' is set on object 'Object Repository/txt-phone'
+
+2021-07-26 23:15:28 - [TEST_STEP][PASSED] - setText(findTestObject("txt-city"), data.getValue("city", rowlogin)): Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-26 23:15:28 - [MESSAGE][PASSED] - Text 'Tangerang' is set on object 'Object Repository/txt-city'
+
+2021-07-26 23:15:28 - [TEST_STEP][PASSED] - setText(findTestObject("txt-address"), data.getValue("address", rowlogin)): Text 'Karawaci' is set on object 'Object Repository/txt-address'
+
+2021-07-26 23:15:29 - [MESSAGE][PASSED] - Text 'Karawaci' is set on object 'Object Repository/txt-address'
+
+2021-07-26 23:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("txt-postal-code"), data.getValue("postal", rowlogin)): Text '15153' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-26 23:15:30 - [MESSAGE][PASSED] - Text '15153' is set on object 'Object Repository/txt-postal-code'
+
+2021-07-26 23:15:30 - [TEST_STEP][PASSED] - click(findTestObject("btn-checkout")): Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-26 23:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-checkout' is clicked on
+
+2021-07-26 23:15:30 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe"), 15): [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-26 23:15:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626846935623']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-26 23:15:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe'. Try using Self-healing.
+
+2021-07-26 23:15:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe' was broken. Propose an alternative one: '//iframe[@id='snap-midtrans']'.
+
+2021-07-26 23:15:47 - [TEST_STEP][PASSED] - click(findTestObject("Tab-ShippingDetails")): Object: 'Object Repository/Tab-ShippingDetails' is clicked on
+
+2021-07-26 23:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Tab-ShippingDetails' is clicked on
+
+2021-07-26 23:15:47 - [TEST_STEP][PASSED] - click(findTestObject("lbl-order-details")): Object: 'Object Repository/lbl-order-details' is clicked on
+
+2021-07-26 23:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl-order-details' is clicked on
+
+2021-07-26 23:15:47 - [TEST_STEP][PASSED] - click(findTestObject("btn-continue")): Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-26 23:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-continue' is clicked on
+
+2021-07-26 23:15:47 - [TEST_STEP][PASSED] - click(findTestObject("btn-creditcard")): Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-26 23:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-creditcard' is clicked on
+
+2021-07-26 23:15:48 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cardnumber"), data.getValue("card_number", rowlogin)): Text ''4811111111111114’' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-26 23:15:48 - [MESSAGE][PASSED] - Text ''4811111111111114’' is set on object 'Object Repository/txt-cardnumber'
+
+2021-07-26 23:15:48 - [TEST_STEP][PASSED] - setText(findTestObject("txt-expiry-date"), data.getValue("expiry_date", rowlogin)): Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-26 23:15:49 - [MESSAGE][PASSED] - Text '01/25' is set on object 'Object Repository/txt-expiry-date'
+
+2021-07-26 23:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("txt-cvv"), data.getValue("cvv", rowlogin)): Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-26 23:15:49 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/txt-cvv'
+
+2021-07-26 23:15:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("chx-pot-10-persen")): Object 'Object Repository/chx-pot-10-persen' is clickable
+
+2021-07-26 23:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/chx-pot-10-persen' is clickable
+
+2021-07-26 23:15:49 - [TEST_STEP][PASSED] - if (data.getValue("promo", rowlogin) == "A"): null
+
+2021-07-26 23:15:49 - [TEST_STEP][PASSED] - else if (data.getValue("promo", rowlogin) == "B"): Object 'Object Repository/chx-pot-10-persen' is checked
+
+2021-07-26 23:15:49 - [TEST_STEP][PASSED] - check(findTestObject("chx-pot-10-persen")): Object 'Object Repository/chx-pot-10-persen' is checked
+
+2021-07-26 23:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/chx-pot-10-persen' is checked
+
+2021-07-26 23:15:49 - [TEST_STEP][PASSED] - click(findTestObject("btn-pay-now")): Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-26 23:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-pay-now' is clicked on
+
+2021-07-26 23:15:49 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("iframe - IssuingBank"), 3): [SELF-HEALING] The current locator of test object 'Object Repository/iframe - IssuingBank' was broken. Propose an alternative one: 'iframe'.
+
+2021-07-26 23:15:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@src = 'https://app.sandbox.midtrans.com/snap/v1/pay?origin_host=https://demo.midtrans.com&digest=40b45cde5af955914cd02faf976ebf644b6d0cc4627f23ea6ea89be809b9fead&client_key=VT-client-yrHf-c8Sxr-ck8tx#/' and @id = 'snap-midtrans' and @name = 'popup_1626922698409']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-26 23:15:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/iframe - IssuingBank'. Try using Self-healing.
+
+2021-07-26 23:15:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/iframe - IssuingBank' was broken. Propose an alternative one: 'iframe'.
+
+2021-07-26 23:15:54 - [TEST_STEP][PASSED] - setText(findTestObject("txt-password-issuingBank"), data.getValue("password", rowlogin)): Text '112233' is set on object 'Object Repository/txt-password-issuingBank'
+
+2021-07-26 23:15:54 - [MESSAGE][PASSED] - Text '112233' is set on object 'Object Repository/txt-password-issuingBank'
+
+2021-07-26 23:15:54 - [TEST_STEP][PASSED] - click(findTestObject("btn-ok-issuingBank")): Object: 'Object Repository/btn-ok-issuingBank' is clicked on
+
+2021-07-26 23:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-ok-issuingBank' is clicked on
+
+2021-07-26 23:15:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("div_Transaction successful"), 0): Object 'Object Repository/div_Transaction successful' is present
+
+2021-07-26 23:15:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-26 23:15:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-26 23:15:56 - [MESSAGE][PASSED] - Object 'Object Repository/div_Transaction successful' is present
+
+2021-07-26 23:15:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("lbl-status-transaction"), STOP_ON_FAILURE): Object 'Object Repository/lbl-status-transaction' is visible
+
+2021-07-26 23:16:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-26 23:16:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/lbl-status-transaction'. Try using Self-healing.
+
+2021-07-26 23:16:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/lbl-status-transaction' was broken. Propose an alternative one: '.trans-status'.
+
+2021-07-26 23:16:28 - [MESSAGE][PASSED] - Object 'Object Repository/lbl-status-transaction' is visible
+
+2021-07-26 23:16:28 - [TEST_STEP][PASSED] - enableSmartWait(): null
+
+2021-07-26 23:16:28 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2021-07-26 23:16:28 - [TEST_STEP][PASSED] - verifyMatch(popup_success_transaction, data.getValue("expected_result", rowlogin), false): Actual text 'Thank you for your purchase' and expected text 'Thank you for your purchase' are matched 
+
+2021-07-26 23:16:28 - [MESSAGE][PASSED] - Actual text 'Thank you for your purchase' and expected text 'Thank you for your purchase' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-26 23:14:02 - [TEST_SUITE][PASSED] - Midtrans-Sofie: Test Cases/Sofie-Case-Positive]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
